@@ -20,9 +20,4 @@ setup(name='python-openvas',
       packages = ['python_openvas'],
       # Specify lib directory as the package directory for python_openvas
       package_dir = {'python_openvas': 'python_openvas/lib'},
-      # Additional files:
-      data_files = [('/opt/python-openvas/reports', []),
-      ('/opt/python-openvas/etc', ['python_openvas/conf/scan.conf']),
-      ('/opt/python-openvas/etc', ['python_openvas/conf/blacklist.conf']),
-      ], #right path copied into left path (created if necessary)
-      )
+)
