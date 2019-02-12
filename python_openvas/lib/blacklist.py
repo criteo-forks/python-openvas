@@ -2,7 +2,7 @@ import textwrap
 from . import color
 
 class Blacklist:
-    blacklist_filepath = '/opt/python-openvas/etc/blacklist.conf'
+    blacklist_filepath = './blacklist.conf'
 
     def __init__(self):
         with open(self.blacklist_filepath, 'r') as blacklistFile:
